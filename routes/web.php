@@ -22,3 +22,7 @@ Route::get('/mypassword', function () {
 Route::get('/mypassword/experiment', function () {
     return view('experiment');
 });
+Route::post('/savepassword',function(){
+    
+});
+
